@@ -1,0 +1,54 @@
+/* my variant */
+.wrapper {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 50px 70px 230px 370px 1fr;
+  grid-template-areas: 
+  "searchField"
+  "header"
+  "slickerSlider"
+  "bookOrBooks"
+  "sidebar";
+  height: 1000px;
+  background: blue;
+}
+.elemContainer {
+  grid-area: bookOrBooks;
+  width: 95%;
+  margin: 0 auto;
+  height: 335px;
+  margin-top: 20px;
+  border: 2px solid lime;
+  color: #fff;
+}
+
+aside {
+  width: 100%;
+  grid-area: sidebar;
+  background: #FF0000;
+  height: 100px;
+}
+/* breack */
+
+
+/*
+header {
+	grid-area: h;
+	background: #14CD68;
+}
+nav {
+	grid-area: n;
+	background: #14CD68;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+content {
+	grid-area: c;
+	background: lime;
+}
+.content-panarama {
+
+} */

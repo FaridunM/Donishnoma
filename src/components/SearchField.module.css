@@ -1,0 +1,39 @@
+.searchSection {
+	grid-area: searchField;
+	display: flex;
+	justify-content: flex-end;
+	background: grey;
+}
+.search {
+	width: 270px;
+	height: 28px;
+	margin-top: 15px;
+	margin-right: 30px;
+	background: #000;
+	border: 1px solid #000;
+	border-radius: 3px;
+}
+.search input[type="search"] {
+    border: none;
+    outline: none;
+    width: 223px;
+	height: 25px;
+	margin-left: 5px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background: #000;
+	color: #fff;
+	
+	/* border: 1px solid lime; */
+}
+.search button {
+	width: 23px;
+	height: 23px;
+	vertical-align: middle;
+	border: none;
+	border-radius: 5px;
+	background: url('./../search.png') no-repeat;
+	cursor: pointer;
+
+	/* border: 1px solid lime; */
+}
